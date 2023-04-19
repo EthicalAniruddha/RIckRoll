@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Hecker's Website" content="You will be Rick Rolled"> 
+    <title>Hecker's Website</title>
+
+    <style>
+        h1 {
+            color: aqua;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            color: red; font-style: oblique;
+        }
+
+        button {
+            background-color: beige;
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <p><h1>Don't you DARE TO do This! </h1></p>
+
+    <p>Don't Click the button </p>
+
+    <button onclick="showQR()">Don't Click</button>
+
+    <p id = show></p>
+
+    <img src="" alt="">
+
+    <script>
+        function showQR() {
+            document.getElementById("show").innerHTML="Do Not Scan The QRCode!";
+        }
+    </script>
+</body>
+</html>
